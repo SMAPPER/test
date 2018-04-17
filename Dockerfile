@@ -7,4 +7,4 @@ USER bladerunner
 
 STOPSIGNAL SIGTERM
 
-CMD bash -c "while true; do $SECRET=CongratulationsYouAreHuman; sleep 1; done"
+CMD bash -c "while true; do SECRET=CongratulationsYouAreHuman; sleep 1; done"
